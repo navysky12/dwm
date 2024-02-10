@@ -1491,6 +1491,7 @@ sendmon(Client *c, Monitor *m)
 	attachstack(c);
 	focus(NULL);
 	arrange(NULL);
+        warp(c);
 }
 
 void
